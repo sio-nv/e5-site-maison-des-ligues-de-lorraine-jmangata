@@ -13,6 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
+        
         Schema::create('emprunteurs', function (Blueprint $table) {
             $table->integer('numeroCarte');
             $table->string('nom', 50);

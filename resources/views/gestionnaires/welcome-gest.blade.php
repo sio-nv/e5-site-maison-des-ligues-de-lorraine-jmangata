@@ -21,7 +21,7 @@
         <div class="s-12 m-12 l-3">
           <div class="block">
             <div class="count-to">
-              <span class="timer h1 text-size-50  text-m-size-40">?</span>
+              <span class="timer h1 text-size-50  text-m-size-40">{{$nombreSalle}}</span>
               <p class="h1 text-size-20 margin-top-10 text-dark text-thin">salles</p>
             </div>
           </div>
@@ -29,7 +29,7 @@
         <div class="s-12 m-12 l-3">
           <div class="block">
             <div class="count-to">
-              <span class="timer h1 text-size-50  text-m-size-40">?</span>
+              <span class="timer h1 text-size-50  text-m-size-40">{{$nombreClient}}</span>
               <p class="h1 text-size-20 margin-top-10 text-dark text-thin">clients</p>
             </div>
           </div>
@@ -37,7 +37,7 @@
         <div class="s-12 m-12 l-3">
           <div class="block">
             <div class="count-to">
-              <span class="timer h1 text-size-50  text-m-size-40">?</span>
+              <span class="timer h1 text-size-50  text-m-size-40">{{$nombreSociete}}</span>
               <p class="h1 text-size-20 margin-top-10 text-dark text-thin">partenaires</p>
             </div>
           </div>
@@ -45,7 +45,7 @@
         <div class="s-12 m-12 l-3">
           <div class="block">
             <div class="count-to">
-              <span class="timer h1 text-size-50  text-m-size-40">?</span>
+              <span class="timer h1 text-size-50  text-m-size-40">{{$nombreOuvrage}}</span>
               <p class="h1 text-size-20 margin-top-10 text-dark text-thin">ouvrages</p>
             </div>
           </div>
