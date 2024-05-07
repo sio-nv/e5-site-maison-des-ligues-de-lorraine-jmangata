@@ -17,5 +17,7 @@ class GestController extends Controller
         $nombreOuvrage = Ouvrage::count();
         $nombreSociete = Societe::count();
         return view('gestionnaires/welcome-gest',["nombreSalle"=>$nombreSalle,"nombreClient"=>$nombreClient,"nombreOuvrage"=>$nombreOuvrage,"nombreSociete"=>$nombreSociete]);
+
+        
     }
 }
